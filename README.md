@@ -6,6 +6,7 @@ Scrape images from Google and use them as textures on Multiple gridshapes in Jit
 
 #### [Become a Patron!](https://www.patreon.com/bePatron?u=9649817)
 
+![Screenshot of visual result](./media/screenshot.png)
 
 # About
 
