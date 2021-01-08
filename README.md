@@ -48,6 +48,7 @@ Thanks to the following NPM packages:
 - [image-scraper](https://www.npmjs.com/package/image-scraper)
 - [jimp](https://www.npmjs.com/package/jimp)
 - [image-size](https://www.npmjs.com/package/image-size)
+- [fetch](https://www.npmjs.com/package/fetch)
 
 # Licenses
 
