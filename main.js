@@ -140,6 +140,10 @@ max.addHandler('search', (...s) => {
 					let ext = path.parse(header.pathname).ext.toLowerCase();
 					// add .jpg extension if empty string
 					if (!ext) { ext = '.jpg' };
+					// skip if webp extension
+					if (ext === 'webp') { 
+						return;
+					}
 					// the filename and folder
 					let file = `${name}-${i.padStart(3, '0')}${ext}`;
 					

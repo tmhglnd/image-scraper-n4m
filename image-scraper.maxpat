@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 78.0, 1372.0, 783.0 ],
+		"rect" : [ 34.0, 78.0, 999.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,31 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 383.5, 480.0, 98.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "script npm install"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 299.5, 450.0, 58.0, 22.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"bgmode" : 0,
 					"border" : 0,
@@ -569,7 +594,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 570.0, 240.0, 127.0, 100.0 ],
-					"presentation_linecount" : 6,
 					"text" : "Settings for the Google Image Search. size, colormode, type and licensing. Clear if you want any possible image result"
 				}
 
@@ -1395,7 +1419,7 @@
 					"outputmode" : 1,
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 210.0, 100.0, 52.0 ],
-					"text" : "vaporwave"
+					"text" : "cameleon"
 				}
 
 			}
@@ -1464,8 +1488,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 150.0, 240.0, 100.0, 22.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 150.0, 240.0, 100.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "umenu",
+							"parameter_enum" : [ "vaporwave", "escher", "van gogh", "poison frog", "ocean pier", "black hole", "coral reef", "forest", "cameleon", "dali" ],
+							"parameter_type" : 2,
+							"parameter_longname" : "umenu",
+							"parameter_initial_enable" : 1,
+							"parameter_mmax" : 9,
+							"parameter_initial" : [ 8.0 ]
+						}
+
+					}
+,
+					"varname" : "umenu"
 				}
 
 			}
@@ -2174,7 +2212,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 718.5, 930.0, 251.5, 49.0 ],
+					"patching_rect" : [ 718.5, 930.0, 252.0, 49.0 ],
 					"text" : "jit.gl.gridshape @shape plane @color 1 1 1 1 @automatic 0 @scale 0.3 @blend_enable 1 @blend screen @depth_enable 0"
 				}
 
@@ -2413,14 +2451,14 @@
 				"box" : 				{
 					"autopopulate" : 1,
 					"id" : "obj-45",
-					"items" : [ "vaporwave-000.png", ",", "vaporwave-001.jpg", ",", "vaporwave-002.jpg", ",", "vaporwave-003.jpg", ",", "vaporwave-004.jpg", ",", "vaporwave-005.jpg", ",", "vaporwave-006.jpg", ",", "vaporwave-007.jpg", ",", "vaporwave-008.jpg", ",", "vaporwave-009.jpg", ",", "vaporwave-010.jpg", ",", "vaporwave-011.jpg", ",", "vaporwave-012.png", ",", "vaporwave-013.jpg", ",", "vaporwave-014.jpg", ",", "vaporwave-015.png", ",", "vaporwave-016.jpg", ",", "vaporwave-017.jpg", ",", "vaporwave-018.jpg", ",", "vaporwave-019.jpg", ",", "vaporwave-020.jpg", ",", "vaporwave-021.jpg", ",", "vaporwave-022.jpg", ",", "vaporwave-023.jpg", ",", "vaporwave-024.jpg", ",", "vaporwave-025.jpg", ",", "vaporwave-026.png", ",", "vaporwave-027.jpg", ",", "vaporwave-028.jpg", ",", "vaporwave-029.jpeg", ",", "vaporwave-029.png", ",", "vaporwave-030.jpeg", ",", "vaporwave-031.jpg", ",", "vaporwave-032.jpg", ",", "vaporwave-033.jpg", ",", "vaporwave-034.jpg", ",", "vaporwave-035.jpg", ",", "vaporwave-036.jpg", ",", "vaporwave-037.png", ",", "vaporwave-038.png", ",", "vaporwave-039.jpg", ",", "vaporwave-040.jpg", ",", "vaporwave-041.jpg", ",", "vaporwave-041.png", ",", "vaporwave-042.jpg", ",", "vaporwave-043.jpg", ",", "vaporwave-044.jpg", ",", "vaporwave-044.png", ",", "vaporwave-045.jpg", ",", "vaporwave-046.jpeg", ",", "vaporwave-046.jpg", ",", "vaporwave-047.jpeg", ",", "vaporwave-047.jpg", ",", "vaporwave-048.jpg", ",", "vaporwave-049.jpg", ",", "vaporwave-050.jpg", ",", "vaporwave-050.png", ",", "vaporwave-051.jpg", ",", "vaporwave-052.png", ",", "vaporwave-053.jpg", ",", "vaporwave-054.jpg", ",", "vaporwave-055.jpg", ",", "vaporwave-055.png", ",", "vaporwave-056.jpg", ",", "vaporwave-057.jpg", ",", "vaporwave-057.png", ",", "vaporwave-058.jpg", ",", "vaporwave-059.jpg", ",", "vaporwave-060.jpg", ",", "vaporwave-061.png", ",", "vaporwave-062.jpg", ",", "vaporwave-062.png", ",", "vaporwave-063.jpg", ",", "vaporwave-064.jpg", ",", "vaporwave-065.jpg", ",", "vaporwave-066.jpg", ",", "vaporwave-067.jpg", ",", "vaporwave-068.jpg", ",", "vaporwave-069.jpg", ",", "vaporwave-069.png", ",", "vaporwave-070.jpg", ",", "vaporwave-071.jpg", ",", "vaporwave-072.jpg", ",", "vaporwave-073.png", ",", "vaporwave-074.jpg", ",", "vaporwave-075.jpg", ",", "vaporwave-076.jpg", ",", "vaporwave-077.jpg", ",", "vaporwave-078.png", ",", "vaporwave-079.jpg", ",", "vaporwave-081.jpg", ",", "vaporwave-082.jpg", ",", "vaporwave-083.jpg", ",", "vaporwave-084.jpg", ",", "vaporwave-085.jpg", ",", "vaporwave-085.png", ",", "vaporwave-086.jpg", ",", "vaporwave-086.png", ",", "vaporwave-087.jpg", ",", "vaporwave-087.png", ",", "vaporwave-088.jpg", ",", "vaporwave-088.png", ",", "vaporwave-089.jpg", ",", "vaporwave-090.jpg", ",", "vaporwave-091.jpg", ",", "vaporwave-092.jpg", ",", "vaporwave-093.jpg", ",", "vaporwave-094.jpg", ",", "vaporwave-095.jpg", ",", "vaporwave-096.jpg", ",", "vaporwave-097.jpg", ",", "vaporwave-098.jpg", ",", "vaporwave-099.jpg" ],
+					"items" : [ "cameleon-000.jpg", ",", "cameleon-001.jpeg", ",", "cameleon-001.jpg", ",", "cameleon-002.jpeg", ",", "cameleon-002.jpg", ",", "cameleon-003.jpg", ",", "cameleon-004.jpg", ",", "cameleon-005.jpg", ",", "cameleon-005.png", ",", "cameleon-006.jpg", ",", "cameleon-007.jpg", ",", "cameleon-008.jpg", ",", "cameleon-009.jpg", ",", "cameleon-010.jpg", ",", "cameleon-011.jpg", ",", "cameleon-012.jpeg", ",", "cameleon-012.jpg", ",", "cameleon-013.jpg", ",", "cameleon-014.jpg", ",", "cameleon-015.jpg", ",", "cameleon-016.jpg", ",", "cameleon-017.jpg", ",", "cameleon-018.jpg", ",", "cameleon-019.jpg", ",", "cameleon-019.png", ",", "cameleon-020.jpg", ",", "cameleon-021.jpg", ",", "cameleon-022.jpeg", ",", "cameleon-022.jpg", ",", "cameleon-023.jpg", ",", "cameleon-024.jpg", ",", "cameleon-025.jpg", ",", "cameleon-026.jpg", ",", "cameleon-027.jpeg", ",", "cameleon-027.jpg", ",", "cameleon-028.jpg", ",", "cameleon-029.jpeg", ",", "cameleon-029.jpg", ",", "cameleon-030.jpg", ",", "cameleon-031.jpg", ",", "cameleon-032.jpg", ",", "cameleon-033.jpg", ",", "cameleon-034.jpg", ",", "cameleon-035.jpg", ",", "cameleon-036.jpg", ",", "cameleon-037.jpg", ",", "cameleon-037.png", ",", "cameleon-038.jpg", ",", "cameleon-039.jpg", ",", "cameleon-039.png", ",", "cameleon-040.jpg", ",", "cameleon-041.jpg", ",", "cameleon-042.jpg", ",", "cameleon-042.png", ",", "cameleon-043.jpg", ",", "cameleon-044.jpg", ",", "cameleon-045.jpg", ",", "cameleon-046.jpg", ",", "cameleon-046.png", ",", "cameleon-047.jpg", ",", "cameleon-048.jpg", ",", "cameleon-049.jpg", ",", "cameleon-050.jpg", ",", "cameleon-051.jpg", ",", "cameleon-052.jpg", ",", "cameleon-053.jpg", ",", "cameleon-053.png", ",", "cameleon-054.jpg", ",", "cameleon-055.jpg", ",", "cameleon-056.jpg", ",", "cameleon-057.jpg", ",", "cameleon-058.jpg", ",", "cameleon-059.jpg", ",", "cameleon-060.jpg", ",", "cameleon-061.jpg", ",", "cameleon-061.png", ",", "cameleon-062.jpg", ",", "cameleon-063.jpg", ",", "cameleon-064.jpg", ",", "cameleon-065.jpg", ",", "cameleon-065.png", ",", "cameleon-066.jpg", ",", "cameleon-067.jpg", ",", "cameleon-068.jpg", ",", "cameleon-069.jpg", ",", "cameleon-069.png", ",", "cameleon-070.jpg", ",", "cameleon-071.jpg", ",", "cameleon-072.jpg", ",", "cameleon-073.jpg", ",", "cameleon-074.jpg", ",", "cameleon-074.png", ",", "cameleon-075.jpg", ",", "cameleon-076.jpg", ",", "cameleon-077.jpg", ",", "cameleon-078.jpg", ",", "cameleon-079.png", ",", "cameleon-080.jpg", ",", "cameleon-081.jpg", ",", "cameleon-081.png", ",", "cameleon-082.jpg", ",", "cameleon-083.jpg", ",", "cameleon-084.jpg", ",", "cameleon-085.jpg", ",", "cameleon-085.png", ",", "cameleon-086.jpeg", ",", "cameleon-086.jpg", ",", "cameleon-087.jpg", ",", "cameleon-088.jpg", ",", "cameleon-089.jpg", ",", "cameleon-090.jpg", ",", "cameleon-091.jpg", ",", "cameleon-092.jpg", ",", "cameleon-093.jpg", ",", "cameleon-093.png", ",", "cameleon-094.jpg", ",", "cameleon-095.jpg", ",", "cameleon-096.jpg", ",", "cameleon-097.jpg", ",", "cameleon-098.jpg", ",", "cameleon-099.jpg" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.0, 645.0, 100.0, 22.0 ],
-					"prefix" : "Macintosh HD:/Users/timohoogland/Drive/work/code/max/sketches/image-scrape/downloads/vaporwave/",
+					"prefix" : "Macintosh HD:/Users/timohoogland/Drive/work/code/max/major_projects/image-scraper-n4m/downloads/cameleon/",
 					"types" : [ "JPEG", "PNG ", "TIFF" ]
 				}
 
@@ -2515,8 +2553,21 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 190.5, 395.0, 50.0, 22.0 ]
+					"parameter_enable" : 1,
+					"patching_rect" : [ 190.5, 395.0, 50.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_shortname" : "number[4]",
+							"parameter_type" : 3,
+							"parameter_longname" : "number[4]",
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_initial" : [ 100 ]
+						}
+
+					}
+,
+					"varname" : "number[4]"
 				}
 
 			}
@@ -2539,7 +2590,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 120.0, 480.0, 64.0, 22.0 ],
+					"patching_rect" : [ 299.5, 480.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -2555,8 +2606,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 1,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -2647,6 +2696,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-110", 0 ],
 					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -2787,6 +2843,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
 					"source" : [ "obj-19", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
@@ -3099,8 +3162,10 @@
 			"obj-105" : [ "toggle", "toggle", 0 ],
 			"obj-58" : [ "number", "number", 0 ],
 			"obj-100" : [ "number[3]", "number[3]", 0 ],
+			"obj-19" : [ "number[4]", "number[4]", 0 ],
 			"obj-99" : [ "number[2]", "number[2]", 0 ],
 			"obj-114" : [ "number[1]", "number[1]", 0 ],
+			"obj-122" : [ "umenu", "umenu", 0 ],
 			"obj-106" : [ "toggle[1]", "toggle[1]", 0 ],
 			"parameterbanks" : 			{
 
@@ -3110,7 +3175,7 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "main.js",
-				"bootpath" : "~/Drive/work/code/max/sketches/image-scrape",
+				"bootpath" : "~/Drive/work/code/max/major_projects/image-scraper-n4m",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -3127,13 +3192,6 @@
 				"bootpath" : "~/Documents/Max 7/Library/abstractions/th.gl.texturefolder/code",
 				"patcherrelativepath" : "../../../../../../Documents/Max 7/Library/abstractions/th.gl.texturefolder/code",
 				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "vaporwave-073.jpg",
-				"bootpath" : "~/.Trash/vaporwave",
-				"patcherrelativepath" : "../../../../../../.Trash/vaporwave",
-				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{

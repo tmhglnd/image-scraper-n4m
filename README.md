@@ -1,6 +1,6 @@
 # image-scraper-n4m
 
-Scrape images from Google and use them as textures on Multiple gridshapes in Jitter
+Scrape images from Google and use them as textures on multiple gridshapes in Jitter
 
 #### [More visuals and code!](http://gumroad.com/tmhglnd)
 
@@ -48,3 +48,13 @@ Thanks to the following NPM packages:
 - [image-scraper](https://www.npmjs.com/package/image-scraper)
 - [jimp](https://www.npmjs.com/package/jimp)
 - [image-size](https://www.npmjs.com/package/image-size)
+
+# Licenses
+
+This software is licensed under:
+
+- The GNU GPL-3.0 License
+
+The artistic and aesthetic output of the software in the examples is licensed under:
+
+- Creative Commons Attribution-ShareAlike 4.0 International License 

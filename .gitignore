@@ -3,3 +3,6 @@
 
 #ignore downloads
 /downloads
+
+#ignore externals
+/externals
